@@ -1,0 +1,251 @@
+.first{
+    display: flex;
+    gap:25px;
+    margin-left: 60px;
+    margin-top: 5px;
+    transition: 0.3s ease-in;
+    font-size: 2rem;
+
+}
+body{
+    margin-left: 40px;
+    margin-right: 40px;
+    /* padding: 30px; */
+    /* width: 100%vh; */
+}
+a{
+    color: #0088cc;
+    font-size: large;
+    font-weight: bolder;
+    text-decoration: none;
+    padding: 7px;
+}
+.second{
+    display: flex;
+    gap:25px;
+    margin-left: 60px;
+    margin-top: -30px;
+    float: right;
+    margin-right: 60px;
+}
+#icon2{
+    float:right;
+    position: relative;
+   margin-right: -122px;
+margin-top: -27px;
+font-size: 22px;
+color:  #0088cc;
+}
+#icon{
+ /* float: right; */
+margin-top: -20px;
+font-style: normal;
+color:  #0088cc;
+font-size: 220px;
+margin-right: -50px;
+padding-right: 5px;
+}
+.first1{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 220px;
+}
+.h1{
+    position: relative;
+    margin-top: 150px;
+    left:-130px;
+}
+.h2{
+    position: relative;
+    margin-top: 190px;
+    left:-280px;
+    padding: 5px;
+    color: grey;
+    font-weight: bold;
+}
+.fix{
+    background-color: #0088cc;
+    width: 8px;
+    height: 220px;
+    border-radius: 8px;
+    margin-left: -80px;
+}
+h3{
+    color:#0088cc ;
+    margin-left: 15px;
+    margin-top: -1px;
+  font-weight: bold;
+}
+.g1{
+    font-weight: bolder;
+    margin-left: 15px;
+    line-height: 1px;
+}
+.g2{
+    font-weight: bolder;
+    margin-left: 15px;
+    line-height: -1px;
+    color: #0088cc;
+    font-size: small;
+    font-style: normal;
+}
+.g3{
+    font-weight: bolder;
+    margin-left: 15px;
+    margin-top: -18px;
+    line-height: 0px;
+    color: #0088cc;
+    font-size: small;
+    font-style: normal;
+
+} 
+.g4{
+    margin-top: 24px;
+    font-weight: bolder;
+    margin-left: 15px;
+    line-height: 1px;
+}
+.imag21{
+    display: flex;
+    justify-content: center;
+    margin-top:40px;
+    gap: 160px;
+}
+.cha{
+    text-align: center;
+    color: #0088cc;
+    /* font-size: medium; */
+}
+span{
+   font-weight: bolder;
+}
+#and{
+    font-size: 33px;
+    color: #0088cc;
+    position: relative;
+    top: -43px;
+    left: 18px;
+}
+#apple{
+    font-size: 33px;
+    color: #0088cc;
+    position: relative;
+    top: -43px;
+    left: 18px;
+}
+.image23{
+    display: flex;
+    margin-top: 20px;
+    position: relative;
+    justify-content: center;
+    margin-left: 60px;
+}
+.linus{
+    background-image: url(./td_laptop.png);
+    width: 400px;
+    height: 400px;
+    background-repeat: no-repeat;
+   
+    background-position: center;
+    background-size: contain;
+}
+.mac{
+    background-image: url(./artboard_2x.png);
+    width: 400px;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    position: relative;
+    right: 100px;
+}
+ .chah{
+    text-align: center;
+    color: #0088cc;
+    position: relative;
+    top: -90px;
+    left: -40px;
+    margin-left: -200px;
+} 
+.chaha{
+    text-align: center;
+    color: #0088cc;
+    position: relative;
+     top: -120px; 
+    left: 120px; 
+    /* margin-left:200px; */
+} 
+.recent{
+    text-align: center;
+    color: #0088cc;
+    margin-top: -90px;
+    font-weight: bolder;
+    font-size: large;
+}
+.grid1{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    align-content: center;
+    gap: 50px;
+    margin-top: 40px;
+}
+.pp{
+    color: #0088cc;
+    text-decoration: underline;
+    font-weight: bolder;
+    font-size: large;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.hh{
+    text-align: center;
+    font-size: small;
+    margin-left: 12px;
+}
+.why{
+   
+    display: grid;
+    gap: 100px;
+    text-align: center;
+    padding: 20px;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    align-items: center;
+}
+.pp9{
+    margin-top: 50px;
+    color: #0088cc;
+    text-align: center;
+}
+.hn{
+    margin-left: 80px;
+    margin-right: 80px;
+    justify-content: center;
+    display: flex;
+}
+.footer{
+    display: grid;
+    gap: 13px;
+    line-height:0px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: auto auto auto auto auto;
+}
+.m1{
+    color: black;
+}
+.first a:hover{
+    cursor: pointer;
+    border: 2px solid red;
+    border-radius: 8px;
+    color: blueviolet;
+}
+.footer a:hover{
+    cursor: pointer;
+    border: 2px solid red;
+    border-radius: 8px;
+    color: yellowgreen;
+}
